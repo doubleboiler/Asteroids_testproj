@@ -203,6 +203,9 @@ public class GameController : MonoBehaviour
 				SpawnPlayer();
 				break;
 			case 0:
+				heart1.gameObject.SetActive(false);
+				heart2.gameObject.SetActive(false);
+				heart3.gameObject.SetActive(false);
 				GameOver();
 				break;
 		}
